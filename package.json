@@ -11,7 +11,7 @@
 		"package": "pkg --out-path dist --config package.json src/index.js"
 	},
 	"dependencies": {
-		"axios": "^0.18.0",
+		"axios": "^0.18.1",
 		"chalk": "^2.4.2",
 		"minimist": "^1.2.0",
 		"shelljs": "^0.8.3",
