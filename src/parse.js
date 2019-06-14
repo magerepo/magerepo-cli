@@ -47,7 +47,7 @@ function parse ( data ) {
 	let hasEdition = args.edition !== undefined && args.edition
 	let hasRelease = args.release !== undefined && args.release
 	let hasPatch = args.patch !== undefined && args.patch
-	let hasDownload = args.download !== undefined && args.download
+	let hasDownload = args.download !== undefined
 	let hasExtract = args.extract !== undefined && args.extract
 	let hasClean = args.clean !== undefined && args.clean
 	// Resolve paths
