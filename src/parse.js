@@ -63,6 +63,10 @@ function parse ( data ) {
 	else if ( args.extract === "" ) {
 		args.extract = args.download
 	}
+	// Transform arguments
+	if ( hasRelease && args.release === "latest" ) {
+		args.release = "x"
+	}
 	// Save context
 	context.set ({
 		command: args._ [ 0 ],
