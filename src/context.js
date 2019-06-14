@@ -7,7 +7,7 @@ const targz = require ("targz")
 const shell = require ("shelljs")
 const { load } = require ("./account")
 
-const VERSION = "2.0.0"
+const VERSION = "2.0.1"
 const API_BASE_URL = "https://api.magerepo.com"
 
 class Context {

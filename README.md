@@ -2,7 +2,7 @@
 > Cross-platform CLI tool to interact with the MageRepo API
 
 ![](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=for-the-badge)
-![](https://img.shields.io/badge/Version-2.0.0-lightgrey.svg?style=for-the-badge)
+![](https://img.shields.io/badge/Version-2.0.1-lightgrey.svg?style=for-the-badge)
 ![](https://img.shields.io/badge/Stability-Stable-lightgrey.svg?style=for-the-badge)
 
 <p align="center" >
@@ -10,7 +10,7 @@
 </p>
 
 <!-- ffmpeg -i ./movie.mov -vf "setpts=0.25*PTS" fast.mov -->
-<!-- ffmpeg -i ./fast.mov -f apng -r 7 -loop 2 preview.png -->
+<!-- ffmpeg -i ./fast.mov -f apng -r 7 -loop 0 preview.png -->
 
 ## About
 

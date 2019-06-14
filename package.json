@@ -1,6 +1,6 @@
 {
 	"name": "magerepo-cli",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Cross-platform CLI tool to interact with the MageRepo API",
 	"main": "src/index.js",
 	"repository": "git@github.com:magerepo/magerepo-cli.git",
