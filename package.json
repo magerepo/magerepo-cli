@@ -8,20 +8,26 @@
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"package": "pkg --out-path dist --config package.json src/index.js"
+		"package": "pkg --out-path dist --config package.json src/index.js",
+		"clean": "rm -rf ./dist"
 	},
 	"resolutions": {
-		"**/**/set-value": "^2.0.1"
+		"**/**/minimist": "^1.2.5"
 	},
 	"dependencies": {
-		"axios": "^0.18.1",
-		"chalk": "^2.4.2",
-		"minimist": "^1.2.0",
-		"shelljs": "^0.8.3",
-		"strip-ansi": "^5.0.0",
+		"axios": "^0.19.2",
+		"chalk": "^4.1.0",
+		"minimist": "^1.2.5",
+		"strip-ansi": "^6.0.0",
 		"targz": "^1.0.1"
 	},
 	"devDependencies": {
-		"pkg": "^4.3.5"
+		"pkg": "^4.4.9"
+	},
+	"pkg": {
+		"targets": [
+			"node10-macos-x64",
+			"node10-linux-x64"
+		]
 	}
 }

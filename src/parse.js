@@ -213,7 +213,7 @@ function parse ( data ) {
 	}
 	else if ( !args.help && !args.version ) {
 		return Promise.reject ({
-			error: "specify command, use -h for help",
+			error: "specify command, see help below:",
 			context
 		})
 	}

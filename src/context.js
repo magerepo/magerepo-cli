@@ -4,7 +4,6 @@ const fs = require ("fs")
 const path = require ("path")
 const strip = require ("strip-ansi")
 const targz = require ("targz")
-const shell = require ("shelljs")
 const { load } = require ("./account")
 
 const VERSION = "2.0.1"
@@ -48,10 +47,14 @@ class Context {
 		if ( this.quiet ) return
 		if ( !this.unicode ) {
 			console.error ( `${chalk.red ("Error")}:`, ...arguments )
+			console.error ("")
+			require ("./commands/help") ( this )
 		}
 		else {
 			let stripped = Object.values ( arguments ).map ( i => strip ( i ) )
 			console.error ( "Error:", ...stripped )
+			console.error ("")
+			require ("./commands/help") ( this )
 		}
 	}
 
@@ -75,7 +78,7 @@ class Context {
 
 	mkdir ( destination ) {
 		try {
-			shell.mkdir ( "-p", destination )
+			fs.mkdirSync ( destination, { recursive: true } )
 		}
 		catch ( error ) {
 			throw "permission issue with download path"

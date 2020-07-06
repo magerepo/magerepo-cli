@@ -30,5 +30,5 @@ parse ( process.argv.slice ( 2 ) )
 	})
 	.catch ( payload => {
 		const { context, error } = payload
-		context.error ( error || "unknown command, use -h for help" )
+		context.error ( error || "unknown command, see help below:" )
 	})
