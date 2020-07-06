@@ -1,9 +1,9 @@
 # MageRepo CLI Tool
 > Cross-platform CLI tool to interact with the MageRepo API
 
-![](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=for-the-badge)
-![](https://img.shields.io/badge/Version-2.0.1-lightgrey.svg?style=for-the-badge)
-![](https://img.shields.io/badge/Stability-Stable-lightgrey.svg?style=for-the-badge)
+![](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=for-the-badge&labelColor=89BA40&color=282F38)
+![](https://img.shields.io/badge/Version-2.0.2-lightgrey.svg?style=for-the-badge&labelColor=89BA40&color=282F38)
+![](https://img.shields.io/badge/Stability-Stable-lightgrey.svg?style=for-the-badge&labelColor=89BA40&color=282F38)
 
 <p align="center" >
 	<img src="docs/images/preview.png" width="100%" />

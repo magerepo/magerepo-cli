@@ -6,7 +6,7 @@ const strip = require ("strip-ansi")
 const targz = require ("targz")
 const { load } = require ("./account")
 
-const VERSION = "2.0.1"
+const VERSION = "2.0.2"
 const API_BASE_URL = "https://api.magerepo.com"
 
 class Context {
