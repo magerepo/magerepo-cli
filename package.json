@@ -12,6 +12,7 @@
 		"clean": "rm -rf ./dist"
 	},
 	"resolutions": {
+		"**/**/bl": "^1.2.3",
 		"**/**/minimist": "^1.2.5"
 	},
 	"dependencies": {
