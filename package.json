@@ -18,7 +18,7 @@
 	"dependencies": {
 		"axios": "^0.21.2",
 		"chalk": "^4.1.0",
-		"minimist": "^1.2.5",
+		"minimist": "^1.2.6",
 		"strip-ansi": "^6.0.0",
 		"targz": "^1.0.1"
 	},
